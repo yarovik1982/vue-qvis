@@ -4,6 +4,7 @@
        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
        "name": "Математика",
        "nameEng": "Math",
+       "description": "M∀TH",
        "questions": [
            {
                "id": 1,
@@ -102,6 +103,7 @@
        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
        "name": "Биология",
        "nameEng": "Biology",
+       "description": "🧬 DNA",
        "questions": [
            {
                "id": 1,
@@ -209,13 +211,14 @@
    },
    {
        "id": 3,
-       "img": "https://www.codewithharry.com/img/notes-banners/python.webp",
-       "name": "Python",
-       "nameEng": "Python",
+       "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+       "name": "Химия",
+       "nameEng": "Chemistry",
+       "description": "⚗️ H₂O",
        "questions": [
            {
                "id": 1,
-               "text": "What is the composition of table salt",
+               "text": "Каков химический состав поваренной соли?",
                "options": [
                    {
                        "id": 1,
@@ -245,7 +248,7 @@
            },
            {
                "id": 2,
-               "text": "What is Potassium's chemical symbol",
+               "text": "Каков химический символ калия?",
                "options": [
                    {
                        "id": 1,
@@ -275,7 +278,7 @@
            },
            {
                "id": 3,
-               "text": "Which is not organinc",
+               "text": "Какое вещество не является органическим?",
                "options": [
                    {
                        "id": 1,
@@ -310,6 +313,7 @@
        "img": "/assets/images/javascript.svg",
        "name": "JavaScript",
        "nameEng": "JavaScript",
+       "description": "{ JS }",
        "questions": [
            {
                "id": 1,

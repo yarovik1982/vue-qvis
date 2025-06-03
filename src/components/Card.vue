@@ -10,8 +10,10 @@ const navigateQuiz = () => {
 <template>
   <div class="card" @click="navigateQuiz">
     <div class="card-image">
-      <img v-if="quiz.img" :src="quiz.img" alt="Quiz thumbnail" />
-      <img v-else src="http://placehold.it/310x190/" alt="Placeholder thumbnail">
+      <img v-if="quiz.img" :src="quiz.img" alt="Quiz thumbnail" @error="$event.target.style.display='none'" />
+      <div v-if="!quiz.img || $event?.target?.style?.display === 'none'" class="description-placeholder">
+        {{ quiz.description }}
+      </div>
     </div>
     <div class="card-text">
       <h2>{{ quiz.name }}</h2>
@@ -54,6 +56,20 @@ const navigateQuiz = () => {
   display: block;
 }
 
+.description-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #f3f4f6, #e5e7eb);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #374151;
+  text-align: center;
+  padding: 1rem;
+}
+
 .card-text {
   display: flex;
   align-items: center;
@@ -83,6 +99,10 @@ const navigateQuiz = () => {
   
   .card-text {
     padding: 12px;
+  }
+
+  .description-placeholder {
+    font-size: 2rem;
   }
 }
 </style>
