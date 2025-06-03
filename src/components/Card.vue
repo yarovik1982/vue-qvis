@@ -1,17 +1,30 @@
 //Card.vue
 <script setup>
 import {useRouter} from 'vue-router'
+import { ref } from 'vue'
+
 const {quiz} = defineProps(['quiz'])
 const router = useRouter()
+const imageError = ref(false)
+
 const navigateQuiz = () => {
   router.push(`/quiz/${quiz.id}`)
+}
+
+const handleImageError = () => {
+  imageError.value = true
 }
 </script>
 <template>
   <div class="card" @click="navigateQuiz">
     <div class="card-image">
-      <img v-if="quiz.img" :src="quiz.img" alt="Quiz thumbnail" @error="$event.target.style.display='none'" />
-      <div v-if="!quiz.img || $event?.target?.style?.display === 'none'" class="description-placeholder">
+      <img 
+        v-if="quiz.img && !imageError" 
+        :src="quiz.img" 
+        alt="Quiz thumbnail" 
+        @error="handleImageError" 
+      />
+      <div v-else class="description-placeholder">
         {{ quiz.description }}
       </div>
     </div>
