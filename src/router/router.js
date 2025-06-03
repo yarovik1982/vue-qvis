@@ -18,11 +18,6 @@ const routes = [
       name:'quiz'
    },
    {
-      path:'/quiz/javascript-basic',
-      component:() => import('@/views/JsBasicQuizView.vue'),
-      name:'js-basic-quiz'
-   },
-   {
       path:'/other',
       component:() => import('@/views/AppOtherPage.vue'),
       name:'other'
