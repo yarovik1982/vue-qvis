@@ -209,9 +209,9 @@
    },
    {
        "id": 3,
-       "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-       "name": "Химия",
-       "nameEng": "Chemistry",
+       "img": "https://www.codewithharry.com/img/notes-banners/python.webp",
+       "name": "Python",
+       "nameEng": "Python",
        "questions": [
            {
                "id": 1,
@@ -307,9 +307,9 @@
    },
    {
        "id": 4,
-       "img": "src/assets/images/javascript.svg",
-       "name": "JavaScript базовый уровень",
-       "nameEng": "JavaScript Basic Level",
+       "img": "/assets/images/javascript.svg",
+       "name": "JavaScript",
+       "nameEng": "JavaScript",
        "questions": [
            {
                "id": 1,
