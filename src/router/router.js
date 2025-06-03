@@ -18,6 +18,11 @@ const routes = [
       name:'quiz'
    },
    {
+      path:'/quiz/javascript-basic',
+      component:() => import('@/views/JsBasicQuizView.vue'),
+      name:'js-basic-quiz'
+   },
+   {
       path:'/other',
       component:() => import('@/views/AppOtherPage.vue'),
       name:'other'
@@ -47,9 +52,8 @@ const routes = [
 ]
 
 const router = createRouter({
-   history: createWebHistory(import.meta.env.BASE_URL),
+   history: createWebHistory(import.meta.env.VITE_BASE_URL || '/vue-qvis/'),
    routes
 });
 
- 
- export default router
+export default router

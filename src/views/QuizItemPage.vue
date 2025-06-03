@@ -11,10 +11,11 @@ const route = useRoute()
 const quizId = parseInt(route.params.id)
 const quiz = quizes.find(q => q.id === quizId)
 const currentQuestionIndex = ref(0)
-const questionStatus = computed(() => `${currentQuestionIndex.value}/${quiz.questions.length}`)
+const questionStatus = computed(() => `${currentQuestionIndex.value + 1}/${quiz.questions.length}`)
 const barPercentage = computed(() => `${currentQuestionIndex.value/quiz.questions.length * 100}%`)
 const numberOfCorrectAnswer = ref(0)
 const showResults = ref(false)
+
 const onOptionSelected = (isCorrect) => {
    if(isCorrect) {
       numberOfCorrectAnswer.value++
@@ -26,22 +27,45 @@ const onOptionSelected = (isCorrect) => {
 }
 </script>
 <template>
-    <div>
-      <QuizHeader :questionStatus="questionStatus" :barPercentage="barPercentage"/>
-      <div>
-         <Question 
-            v-if="!showResults"
-            :question="quiz.questions[currentQuestionIndex]"
-            @selectOption="onOptionSelected"
-         />
-         <Result v-else
-            :quizQuestionLength="quiz.questions.length"
-            :numberOfCorrectAnswer="numberOfCorrectAnswer"
-         />
-      </div>
+  <div class="quiz-page">
+    <QuizHeader :questionStatus="questionStatus" :barPercentage="barPercentage"/>
+    <div class="quiz-content">
+      <Question 
+        v-if="!showResults"
+        :question="quiz.questions[currentQuestionIndex]"
+        @selectOption="onOptionSelected"
+      />
+      <Result v-else
+        :quizQuestionLength="quiz.questions.length"
+        :numberOfCorrectAnswer="numberOfCorrectAnswer"
+      />
     </div>
+  </div>
 </template>
-<style  scoped >
+<style scoped>
+.quiz-page {
+  min-height: 100vh;
+  background-color: #f7fafc;
+  padding: 20px 0;
+}
 
+.quiz-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
 
+@media (max-width: 640px) {
+  .quiz-page {
+    padding: 0;
+  }
+
+  .quiz-content {
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
 </style>
