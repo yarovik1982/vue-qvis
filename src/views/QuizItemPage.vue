@@ -4,7 +4,7 @@ import QuizHeader from '@/components/QuizHeader.vue'
 import Result from '../components/Result.vue';
 import { useRouter, useRoute } from 'vue-router';
 import quizes from '../data/quizes.json'
-import { ref, watch , computed} from 'vue';
+import { ref, watch, computed } from 'vue';
 
 const router = useRouter()
 const route = useRoute()
@@ -16,19 +16,34 @@ const barPercentage = computed(() => `${currentQuestionIndex.value/quiz.question
 const numberOfCorrectAnswer = ref(0)
 const showResults = ref(false)
 
+// Добавляем массив для хранения истории ответов
+const answersHistory = ref([])
+
 const onOptionSelected = (isCorrect) => {
+   // Сохраняем информацию о текущем вопросе и ответе
+   answersHistory.value.push({
+     question: quiz.questions[currentQuestionIndex.value],
+     isCorrect: isCorrect,
+     userAnswer: quiz.questions[currentQuestionIndex.value].options.find(opt => opt.isCorrect === isCorrect)
+   })
+
    if(isCorrect) {
       numberOfCorrectAnswer.value++
    }
-   if(quiz.questions.length - 1 === currentQuestionIndex.value){
-      showResults.value = !showResults.value
-   }
    currentQuestionIndex.value++
+   
+   if(currentQuestionIndex.value === quiz.questions.length){
+      showResults.value = true
+   }
 }
 </script>
 <template>
   <div class="quiz-page">
-    <QuizHeader :questionStatus="questionStatus" :barPercentage="barPercentage"/>
+    <QuizHeader 
+      v-if="!showResults"
+      :questionStatus="questionStatus" 
+      :barPercentage="barPercentage"
+    />
     <div class="quiz-content">
       <Question 
         v-if="!showResults"
@@ -38,6 +53,7 @@ const onOptionSelected = (isCorrect) => {
       <Result v-else
         :quizQuestionLength="quiz.questions.length"
         :numberOfCorrectAnswer="numberOfCorrectAnswer"
+        :answersHistory="answersHistory"
       />
     </div>
   </div>

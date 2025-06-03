@@ -1,621 +1,1109 @@
 [
-   {
-       "id": 1,
-       "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
-       "name": "Математика",
-       "nameEng": "Math",
-       "description": "M∀TH",
-       "questions": [
-           {
-               "id": 1,
-               "text": "8 ÷ 2(2 + 2)",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "16",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "1",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "8",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "24",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 2,
-               "text": "sqrt(64) * 9",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "4",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "81",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "72",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "144",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 3,
-               "text": "3 + 3 x 3 ÷ 3 - 3",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "3",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "1",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "9",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "16",
-                       "isCorrect": false
-                   }
-               ]
-           }
-       ]
-   },
-   {
-       "id": 2,
-       "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
-       "name": "Биология",
-       "nameEng": "Biology",
-       "description": "🧬 DNA",
-       "questions": [
-           {
-               "id": 1,
-               "text": "Что является основным источником энергии для фотосинтеза?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "Свет",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "Вода",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "Углекислый газ",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 2,
-               "text": "Какой орган является главным местом обмена газов в человеческом организме?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "Сердце",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "Печень",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "Легкие",
-                       "isCorrect": true
-                   }
-               ]
-           },
-           {
-               "id": 3,
-               "text": "Какой вид клеток отвечает за передачу наследственной информации?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "Нейроны",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "Сперматозоиды и яйцеклетки",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "Эпителиальные клетки",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-            "id": 4,
-            "text": "Какой витамин помогает в абсорбции кальция в организме?",
-            "options": [
-                {
-                    "id": 1,
-                    "label": "A",
-                    "text": "Витамин C",
-                    "isCorrect": false
-                },
-                {
-                    "id": 2,
-                    "label": "B",
-                    "text": "Витамин D",
-                    "isCorrect": true
-                },
-                {
-                    "id": 3,
-                    "label": "C",
-                    "text": "Витамин A",
-                    "isCorrect": false
-                },
-                {
-                    "id": 4,
-                    "label": "D",
-                    "text": "Витамин K",
-                    "isCorrect": false
-                }
-            ]
-        }
-       ]
-   },
-   {
-       "id": 3,
-       "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-       "name": "Химия",
-       "nameEng": "Chemistry",
-       "description": "⚗️ H₂O",
-       "questions": [
-           {
-               "id": 1,
-               "text": "Каков химический состав поваренной соли?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "NaCl",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "K2",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "NaCl2C4H7",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "CH4",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 2,
-               "text": "Каков химический символ калия?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "P",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "Pt",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "Pts",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "K",
-                       "isCorrect": true
-                   }
-               ]
-           },
-           {
-               "id": 3,
-               "text": "Какое вещество не является органическим?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "CH4",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "NaCl",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "C2H6",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "C3H8",
-                       "isCorrect": false
-                   }
-               ]
-           }
-       ]
-   },
-   {
-       "id": 4,
-       "img": "/assets/images/javascript.svg",
-       "name": "JavaScript",
-       "nameEng": "JavaScript",
-       "description": "{ JS }",
-       "questions": [
-           {
-               "id": 1,
-               "text": "Что выведет в консоль следующий код?\nconsole.log(typeof 42);",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "number",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "string",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "undefined",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "integer",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 2,
-               "text": "Какое значение будет у переменной x после выполнения следующего кода?\nvar x = 5;\n(function () {\n    var x = 10;\n})();\nconsole.log(x);",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "undefined",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "10",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "5",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "null",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 3,
-               "text": "Что вернёт выражение:\nBoolean(\"false\")",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "false",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "true",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "undefined",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "null",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 4,
-               "text": "Какой результат выведет console.log?\nconsole.log(+'5' + +'7');",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "57",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "12",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "NaN",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "\"12\"",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 5,
-               "text": "Какое значение имеет typeof []?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "array",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "object",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "list",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "null",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 6,
-               "text": "Что выведет следующий код?\nlet a = [1, 2, 3];\nlet b = [...a];\nconsole.log(a === b);",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "true",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "false",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "undefined",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "null",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 7,
-               "text": "Какой результат выполнения следующего кода?\nconsole.log(1 == '1');",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "true",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "false",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "undefined",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "error",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 8,
-               "text": "Какое ключевое слово используется для объявления константы?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "let",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "const",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "var",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "static",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 9,
-               "text": "Как получить последний элемент массива?",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "arr.last()",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "arr[arr.length - 1]",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "arr.pop()",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "arr.slice(-1)[0]",
-                       "isCorrect": false
-                   }
-               ]
-           },
-           {
-               "id": 10,
-               "text": "Что выведет следующий код?\nfunction greet(name) {\n    console.log(`Hello, ${name}!`);\n}\ngreet();",
-               "options": [
-                   {
-                       "id": 1,
-                       "label": "A",
-                       "text": "Hello, !",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 2,
-                       "label": "B",
-                       "text": "Hello, undefined!",
-                       "isCorrect": true
-                   },
-                   {
-                       "id": 3,
-                       "label": "C",
-                       "text": "ReferenceError",
-                       "isCorrect": false
-                   },
-                   {
-                       "id": 4,
-                       "label": "D",
-                       "text": "TypeError",
-                       "isCorrect": false
-                   }
-               ]
-           }
-       ]
-   }
+    {
+        "id": 1,
+        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
+        "name": "Математика",
+        "nameEng": "Math",
+        "description": "M∀TH",
+        "questions": [
+            {
+                "id": 1,
+                "text": "8 ÷ 2(2 + 2)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "16",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "8",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "24",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "sqrt(64) * 9",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "4",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "81",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "72",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "144",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "9",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "16",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
+        "name": "Биология",
+        "nameEng": "Biology",
+        "description": "🧬 DNA",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Что является основным источником энергии для фотосинтеза?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Свет",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Вода",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Углекислый газ",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Какой орган является главным местом обмена газов в человеческом организме?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Сердце",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Печень",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Легкие",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какой вид клеток отвечает за передачу наследственной информации?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Нейроны",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Сперматозоиды и яйцеклетки",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Эпителиальные клетки",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Какой витамин помогает в абсорбции кальция в организме?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Витамин C",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Витамин D",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Витамин A",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Витамин K",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+        "name": "Химия",
+        "nameEng": "Chemistry",
+        "description": "⚗️ H₂O",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Каков химический состав поваренной соли?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "NaCl",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "K2",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "NaCl2C4H7",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "CH4",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Каков химический символ калия?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "P",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Pt",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Pts",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "K",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какое вещество не является органическим?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "CH4",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "NaCl",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "C2H6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "C3H8",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "/assets/images/javascript.svg",
+        "name": "JavaScript base level",
+        "nameEng": "JavaScript",
+        "description": "{ JS }",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Что выведет в консоль следующий код?\nconsole.log(typeof 42);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "number",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "string",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "integer",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Какое значение будет у переменной x после выполнения следующего кода?\nvar x = 5;\n(function () {\n    var x = 10;\n})();\nconsole.log(x);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "10",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "null",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Что вернёт выражение:\nBoolean(\"false\")",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "false",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "true",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "null",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Какой результат выведет console.log?\nconsole.log(+'5' + +'7');",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "57",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "12",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "NaN",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "\"12\"",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Какое значение имеет typeof []?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "array",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "object",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "list",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "null",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Что выведет следующий код?\nlet a = [1, 2, 3];\nlet b = [...a];\nconsole.log(a === b);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "true",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "false",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "null",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Какой результат выполнения следующего кода?\nconsole.log(1 == '1');",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "true",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "false",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "error",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Какое ключевое слово используется для объявления константы?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "let",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "const",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "var",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "static",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Как получить последний элемент массива?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "arr.last()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "arr[arr.length - 1]",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "arr.pop()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "arr.slice(-1)[0]",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "Что выведет следующий код?\nfunction greet(name) {\n    console.log(`Hello, ${name}!`);\n}\ngreet();",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Hello, !",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Hello, undefined!",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "ReferenceError",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "TypeError",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "/assets/images/javascript.svg",
+        "name": "JavaScript продвинутый уровень",
+        "nameEng": "JavaScript",
+        "description": "{ JS 2.0 }",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Какое значение вернёт следующий код?\nconsole.log(typeof typeof []);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "'object'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "'array'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "'string'",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "'undefined'",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Что будет выведено в консоль?\n(function () {\n    var a = b = 5;\n})();\nconsole.log(b);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ReferenceError",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "null",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какой результат выполнения выражения:\nconsole.log(1 + '2' + 3);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "'123'",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "'15'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "NaN",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Что выведет следующий код?\nvar x = 1;\nfunction* foo() {\n    x++;\n    yield;\n    console.log(x);\n}\nconst gen = foo();\ngen.next();\ngen.next();",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "2",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "3",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Какое значение будет у переменной `x` после выполнения следующего кода?\nlet x = 10;\nif (true) {\n    let x = 20;\n}\nconsole.log(x);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "10",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "20",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "null",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Какой результат выполнения следующего кода?\nconsole.log(1 == '1');",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "true",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "false",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "error",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Что выведет следующий код?\nfunction bar() {\n    return foo;\n    foo = 10;\n    function foo() {}\n    var foo = 'bar';\n}\nconsole.log(typeof bar());",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "'function'",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "'string'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "'number'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "'undefined'",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Что выведет следующий код?\nlet arr = [1, 2, 3];\narr[10] = 5;\nconsole.log(arr.length);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "10",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "11",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "undefined",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Какое значение имеет `typeof Symbol.iterator`?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "'symbol'",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "'string'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "'undefined'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "'object'",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "Что произойдет при вызове `f()` в следующем коде?\nfunction f() {\n    return g();\n    function g() {\n        return this;\n    }\n}",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "window",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "null",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Error",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "text": "Что выведет следующий код?\nconsole.log([...'abc']);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "[ 'a', 'b', 'c' ]",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "'abc'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "[ 'abc' ]",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "undefined",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "text": "Что выведет следующий код?\nconsole.log({} + []);",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "'[object Object]'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "'0'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "'[object Object][object Array]'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "'[object Object]'",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "text": "Какое значение вернёт `Promise.resolve(1)\n  .then((x) => x)\n  .catch((x) => x)\n  .then((x) => x);`?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Error",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Promise { <pending> }",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "text": "Каким будет результат?\nfunction Dog(name) {\n  this.name = name;\n}\nDog.prototype.bark = function() {\n  console.log('Woof!');\n};\nconst dog = new Dog('Rex');\ndog.bark();",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "TypeError",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Woof!",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "ReferenceError",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "text": "Что вернёт `JSON.stringify({ x: 1, y: 2, toJSON() { return { x: this.x }; } });`?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "{\"x\":1,\"y\":2}",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "{\"x\":1}",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "\"{ x: 1 }\"",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "undefined",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "text": "Что выведет следующий код?\nasync function getData() {\n  try {\n    const data = await Promise.reject('Oops!');\n  } catch (e) {\n    console.log(e);\n  }\n}\ngetData();",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "'Oops!'",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Error",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "null",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
 ]
-

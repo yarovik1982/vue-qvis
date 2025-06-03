@@ -3,7 +3,7 @@
 <template>
     <header class="header">
       <router-link active-class="active" to="/">Home</router-link> |
-      <router-link active-class="active" to="/quiz">Qvis</router-link> |
+      <router-link active-class="active" to="/quiz">Qviz</router-link> |
       <!-- <router-link active-class="active" to="/other">Other</router-link> |
       <router-link active-class="active" to="/cars">Cars</router-link> -->
     </header>
