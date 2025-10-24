@@ -13,6 +13,11 @@ const routes = [
       name:'quizes'
    },
    {
+      path:'/nick',
+      component:() => import('@/views/NickPage.vue'),
+      name:'forNick'
+   },
+   {
       path:'/quiz/:id',
       component:() => import('@/views/QuizItemPage.vue'),
       name:'quiz'
