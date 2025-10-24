@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as c}from"./index-9099fa02.js";const n={},s=c("h1",null,"404 Page Not found.",-1),_=[s];function a(r,d){return o(),t("div",null,_)}const f=e(n,[["render",a]]);export{f as default};

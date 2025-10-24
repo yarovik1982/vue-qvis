@@ -1,1 +1,0 @@
-import{_ as e,o as c,c as _}from"./index-7c4e0c2c.js";const t={},a={class:"page-title"};function s(o,n){return c(),_("h1",a,"Для Коли")}const d=e(t,[["render",s],["__scopeId","data-v-fad58c38"]]);export{d as default};
